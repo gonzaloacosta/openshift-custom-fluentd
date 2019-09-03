@@ -1,10 +1,9 @@
+### Tunnig Fluentd
 
-###Tunnig Fluentd
-
-#Planteo
+# Planteo
 El objetivo del presente documento es poder visualizar desde kibana solo los logs de los proyectos, pods, containers deseados. No usando filtros de kibana, sino filtrar el logging desde fluentd.
 
-#Marco teórico
+# Marco teórico
 En el stack de logging de openshift tenemos tres componentes claves.
 
 - Fluentd: Encargado de colectar los logs en los nodos de Openshift y realizar el reenvío de los datos de manera estandarizada a un repositorio central, elasticsearch.
